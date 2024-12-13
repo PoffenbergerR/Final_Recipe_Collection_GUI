@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+[project]
+name = "dcu" 
+version = "0.0.1"
+authors = [
+{ name="Rachael Poffenberger", email="rpoffe01@rams.shepherd.edu" },
+]
+description = "A program to organize recipes." 
+readme = "README.md"
+requires-python = ">=3.8" 
+classifiers = [
+"Programming Language :: Python :: 3",
+"License :: OSI Approved :: MIT License",
+"Operating System :: OS Independent", ]
+dependencies = ["tkinter"]
+
+[project.urls]
+Homepage = "https://github.com/PoffenbergerR"
+Issues = "https://github.com/PoffenbergerR/Midterm_recipes"
